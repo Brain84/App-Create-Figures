@@ -14,7 +14,7 @@ class Circle extends Component {
       valueInput: e.target.value
     })
   }
-  handleCreateCircle = (e) => {
+  handleCreateCircle = e => {
     e.preventDefault();
     this.setState({
       visableCircle: true,

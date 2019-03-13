@@ -14,7 +14,7 @@ class Triangle extends Component {
       valueInput: e.target.value
     })
   }
-  handleCreateTriangle = (e) => {
+  handleCreateTriangle = e => {
     e.preventDefault();
     this.setState({
       visableTriangle: true,

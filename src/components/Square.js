@@ -14,7 +14,7 @@ class Square extends Component {
       valueInput: e.target.value
     })
   }
-  handleCreateSquare = (e) => {
+  handleCreateSquare = e => {
     e.preventDefault();
     this.setState({
       visableSquare: true,
